@@ -1,4 +1,4 @@
-#search room location in Leuphana
+#Translate Leuphana location code into human language
 
 def leuphana( campus, building_num , floor_num, room_num ):
     input("Please enter your area code accordingly \nCampus(Capital), Building Number , Floor Number, Room number")
