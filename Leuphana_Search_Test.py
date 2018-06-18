@@ -1,8 +1,9 @@
 #Translate Leuphana location code into human language
 
 def leuphana( campus, building_num , floor_num, room_num ):
-    input("Please enter your area code accordingly \nCampus(Capital), Building Number , Floor Number, Room number")
-
+    
+    input("Please enter your area code accordingly in the Leuphana call back function\n Leuphana(campus(Capital), Building Number , Floor Number, Room number)")
+    
     if campus == 'HMS':
         print('Hamburg Media School' +','+ 'building {}'.format(building_num) +','+ 'floor {}'.format(floor_num) +','+ 'room {}'.format(room_num))
     elif campus == 'C':
@@ -16,7 +17,7 @@ def leuphana( campus, building_num , floor_num, room_num ):
     elif campus == 'P':
         print('Rotes Feld / Wilschenbrucher  Weg  69 (Pavillon)' + ','+ 'building {}'.format(building_num) + ',' + 'floor {}'.format(floor_num) + ',' + 'room {}'.format(room_num))
     else:
-        print('Input Error: No location found')
+        print('**Input Error: No location found**')
 
 #Additional Help
         message = float(input("if you need more help, please type: 1 "))
