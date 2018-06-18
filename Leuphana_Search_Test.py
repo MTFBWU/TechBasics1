@@ -38,4 +38,4 @@ def leuphana( campus, building_num , floor_num, room_num ):
                 i +=1
 
 
-leuphana('k',7,3,9)
+leuphana('k',7,3,9) #Please adjust the values to experiement different outcomes
